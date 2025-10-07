@@ -97,7 +97,7 @@ jobs:
         with:
           task-definition: ${{ steps.reder-task-definition.outputs.task-definition }}
           service: widget-server
-          cluster: rocketseat-ecs
+          cluster: trusting-crocodile-rrnyup
           wait-for-service-stability: true
 
       # - name: Deploy to App Runner
